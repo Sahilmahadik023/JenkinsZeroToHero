@@ -73,3 +73,36 @@ docker image rmi 82b
 sudo docker run -d   --name jenkins   -v jenkins_home:/var/jenkins_home   --restart unless-stopped   -p 8080:8080   -p 50000:50000   jenkins/jenkins:lts
 docker ps
 docker exec -it 532 bash
+docker ps
+docker exec -it 532 bash
+yum install git 
+echo "# JenkinsZeroToHero" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Sahilmahadik023/JenkinsZeroToHero.git
+git push -u origin main
+git init
+git push -u origin main
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Sahilmahadik023/JenkinsZeroToHero.git
+ls
+git status
+echo "I am Learning Jenkins. Its My day 01" > README.md
+git add .
+git status
+git commit -m "This is first commit"
+git status
+git push -u origigit push -u origi main
+git push -u origi main
+git push -u origin main
+git config --global user.name "Sahil Mahadik"
+git config --global user.email "sahilmahadik.023@gmail.com"
+git configit confi --list
+git config --list
+git push -u origin main
+git push -u origi main
+git push -u origin main
