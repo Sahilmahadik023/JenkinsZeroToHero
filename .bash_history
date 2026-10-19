@@ -106,3 +106,72 @@ git config --list
 git push -u origin main
 git push -u origi main
 git push -u origin main
+git status
+git config --list
+git brach --list
+git branch list
+git --help
+git branch
+ls
+mkdir DAY01-Jenkins
+git add .
+git commit -m "Its my day 01"
+git push -u origin main
+ls
+git add DAY01-Jenkins/
+git status
+ls
+DAY01-Jenkins/
+cd DAY01-Jenkins/
+nano text.txt
+git init
+git add .
+git status
+git commit -m  "I had cregit commit "I had creagit commit "I had created a file"
+git commit -m  "I had creagit commit "I had created a file"
+
+git status
+git commit -m "ok"
+git status
+git push -u origin main
+git push -u origin/main
+cd ..
+git
+clear
+git status
+git add
+git add .
+git status
+git commit -m "newfile"
+git branch
+git push -u origin main
+git config --global --get credential.helper
+git config --global credential.helper 'cache --timeout=3600'
+ls
+cd DAY01-Jenkins/
+ls
+nano 1.py
+cd ..
+git add .
+git status
+hit add .
+git add .
+git commit -m "ok new file"
+git push 
+git push -u origin main
+git status
+rm -rf DAY01-Jenkins/.git
+git status
+ls
+git add .
+git status
+cd DAY01-Jenkins/
+ls
+nano 2.py
+cd ..
+git add .
+git status
+ls -la ~/DAY01-Jenkins/
+git check-ignore -v DAY01-Jenkins/2.py
+git ls-files --stage DAY01-Jenkins
+cat .gitmodules
