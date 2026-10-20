@@ -175,3 +175,20 @@ ls -la ~/DAY01-Jenkins/
 git check-ignore -v DAY01-Jenkins/2.py
 git ls-files --stage DAY01-Jenkins
 cat .gitmodules
+ls
+nano d.txt
+git add .
+git status
+git commit -m "ok 2"
+git push -u origin main
+cat /var/run/docker.sock 
+docker ps -a
+docker stop 5329
+docker rm 5329
+docker ps
+history | grep -i "docker run"
+sudo docker run -d   --name jenkins   -v jenkins_home:/var/jenkins_home  -v /var/run/docker.sock:-/var/run/docker.sock --restart unless-stopped   -p 8080:8080   -p 50000:50000   jenkins/jenkins:lts
+sudo docker run -d   --name jenkins   -v jenkins_home:/var/jenkins_home  -v /var/run/docker.sock:/var/run/docker.sock --restart unless-stopped   -p 8080:8080   -p 50000:50000   jenkins/jenkins:lts
+docker ps
+docker exec -it -u root a195 bash
+docker exec -it  a195 bash
